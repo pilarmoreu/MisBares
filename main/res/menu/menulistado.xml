@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/insertar" android:title="@string/menu_insertar"
+		android:icon="@drawable/insertar">
+	</item>
+	<item android:id="@+id/acercade" android:title="@string/menu_acercade"
+		android:icon="@drawable/acercade">
+	</item>
+	<item android:id="@+id/ordenar" android:title="@string/menu_ordenar"
+		android:icon="@drawable/ordenar">
+	</item>
+	<item android:id="@+id/importar" android:title="@string/menu_importar"
+		android:icon="@drawable/importar">
+	</item>
+	<item android:id="@+id/exportar" android:title="@string/menu_exportar"
+		android:icon="@drawable/exportar">
+	</item>
+</menu>

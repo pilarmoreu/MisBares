@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorlistado"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nRegistros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="2dip"
+        android:text="Nº de registros: "
+        android:textSize="15dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:textColor="@android:color/background_light">
+    </TextView>
+    <!-- Esta Vista dibuja una línea en el UI -->
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:layout_marginTop="2dip"
+        android:background="@android:color/background_light" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sin_bares" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mis Bares</string>
+    <string name="sin_bares">No hay ningún bar registrado</string>
+	<string name="menu_borrar">Borrar bar</string>
+	<string name="menu_insertar">Registrar bar</string>
+	<string name="menu_acercade">Acerca de...</string>
+	<string name="menu_ordenar">Ordenar por...</string>
+	<string name="menu_importar">Importar datos</string>
+	<string name="menu_exportar">Exportar datos</string>
+	<string name="bar_editar_nombre">Nombre</string>
+	<string name="bar_editar_direccion">Dirección</string>
+	<string name="bar_editar_relacion">Relación calidad-precio</string>
+	<string name="bar_editar_tipo">Tipo</string>
+	<string name="bar_editar_fecha_visita">Fecha de las visitas:</string>
+	<string name="bar_editar_precio">Precio</string>
+	<string name="bar_editar_valoracion">Valoración</string>
+	<string name="bar_editar_acompanante">¿Con quién ir?</string>
+	<string name="bar_editar_notas">Notas</string>
+	<string name="boton_aceptar">Aceptar</string>
+	<color name="colorlistado">#a9c8c0</color>
+	<color name="color_fuente">#cc0000</color>
+</resources>

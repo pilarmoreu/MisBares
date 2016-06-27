@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iconobar"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_icono_bar" >
+        </ImageView>
+
+        <RatingBar
+            android:id="@+id/fila_valoracion"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:numStars="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fila_nombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@+id/TextView01"
+            android:textColor="@color/color_fuente"
+            android:textSize="20dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/fila_direccion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dirección"
+            android:textColor="@color/color_fuente"
+            android:textSize="15dp" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fila_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+id/fila_fecha"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/color_fuente"
+                android:textSize="12dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/relacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@+id/fila_fecha"
+                android:text="Calidad-precio: "
+                android:textColor="@color/color_fuente"
+                android:textSize="12dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/fila_categoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/relacion"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="5dp"
+                android:text="Categoría"
+                android:textColor="@color/color_fuente"
+                android:textSize="12dp"
+                android:gravity="center" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

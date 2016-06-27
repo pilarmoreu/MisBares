@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="categorias">
+		<item>Restaurante</item>
+		<item>Cafetería</item>
+		<item>Bar de tapas</item>
+		<item>Pub</item>
+		<item>Discoteca</item>
+		<item>Taberna</item>
+		<item>Tetería</item>
+		<item>Gastrobar</item>
+		<item>Sidrería</item>
+	</string-array>
+
+	<string-array name="relacion">
+		<item>Inmejorable</item>
+		<item>Excelente</item>
+		<item>Muy buena</item>
+		<item>Buena</item>
+		<item>Normal</item>
+		<item>Regular</item>
+		<item>Mala</item>
+		<item>Muy mala</item>
+		<item>Horrorosa</item>
+	</string-array>
+
+	<string-array name="acompanante">
+		<item>Familia</item>
+		<item>Amigos</item>
+		<item>Trabajo</item>
+	</string-array>
+
+	<string-array name="orden">
+		<item>Orden registro</item>
+		<item>Fecha primera visita</item>
+		<item>Acompañante</item>
+		<item>Título</item>
+		<item>Valoración</item>
+	</string-array>
+</resources>
